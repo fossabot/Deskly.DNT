@@ -1,9 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <Title>Deskly.DNT</Title>
+    <Description>Deskly.DNT is a Lightweight and Extensible Infrastructure for Building Web Applications</Description>
+    <VersionPrefix>0.3</VersionPrefix>
+    <Authors>Ali zaferany</Authors>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>https://github.com/Azaferany/Deskly.DNT</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>.NETCore;EFCore;Tenancy;Validation;Transaction;Logging</PackageTags>
+    <AssemblyName>Deskly.DNT</AssemblyName>
+    <RootNamespace>Deskly.DNT</RootNamespace>
   </PropertyGroup>
-
+  
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PlatformTarget>anycpu</PlatformTarget>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Content Include="README.md">
+      <Pack>true</Pack>
+      <PackagePath>README.md</PackagePath>
+    </Content>
+  </ItemGroup>
+  
   <ItemGroup>
     <PackageReference Include="Castle.Core" Version="4.4.1" />
   </ItemGroup>

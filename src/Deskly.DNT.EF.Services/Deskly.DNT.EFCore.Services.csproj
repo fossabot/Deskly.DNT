@@ -1,10 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-  </PropertyGroup>
-  <PropertyGroup>
-    <Title>Deskly.DNT.EFCore</Title>
+    <Title>Deskly.DNT.EFCore.Services</Title>
     <Description>Deskly.DNT is a Lightweight and Extensible Infrastructure for Building Web Applications</Description>
     <VersionPrefix>0.3</VersionPrefix>
     <Authors>Ali zaferany</Authors>
@@ -13,34 +10,19 @@
     <PackageProjectUrl>https://github.com/Azaferany/Deskly.DNT</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageTags>.NETCore;EFCore;Tenancy;Validation;Transaction;Logging</PackageTags>
-    <AssemblyName>Deskly.DNT.EFCore</AssemblyName>
-    <RootNamespace>Deskly.DNT.EFCore</RootNamespace>
+    <AssemblyName>Deskly.DNT.EFCore.Services</AssemblyName>
+    <RootNamespace>Deskly.DNT.EFCore.Services</RootNamespace>
   </PropertyGroup>
-
+  
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <PlatformTarget>anycpu</PlatformTarget>
   </PropertyGroup>
-
   <ItemGroup>
+    
     <Content Include="README.md">
       <Pack>true</Pack>
       <PackagePath>README.md</PackagePath>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Castle.Core" Version="4.4.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
-    <PackageReference Include="System.Text.Json" Version="5.0.0" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <ProjectReference Include="..\Deskly.DNT\Deskly.DNT.csproj" />
   </ItemGroup>
   
 </Project>

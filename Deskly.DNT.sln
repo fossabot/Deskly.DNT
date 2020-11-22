@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D144C59F-27B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deskly.DNT", "src\Deskly.DNT\Deskly.DNT.csproj", "{A764138A-FD39-49D5-AEFD-6FB9C3FC87B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deskly.DNT.EF.Services", "src\Deskly.DNT.EF.Services\Deskly.DNT.EF.Services.csproj", "{A4359793-34C6-4840-9ED6-728B03C04DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deskly.DNT.EFCore.Services", "src\Deskly.DNT.EF.Services\Deskly.DNT.EFCore.Services.csproj", "{A4359793-34C6-4840-9ED6-728B03C04DB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deskly.DNT.EFCore", "src\Deskly.DNT.EFCore\Deskly.DNT.EFCore.csproj", "{B419FF3C-A98B-417C-BE81-6B9A71FA37D8}"
 EndProject
