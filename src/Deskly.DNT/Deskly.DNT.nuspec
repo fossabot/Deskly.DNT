@@ -6,9 +6,9 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
-    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/Azaferany/Deskly.DNT</projectUrl>
+    <iconUrl>https://bpng.subpng.com/dy/9bd3b44b0a31bb0db158b73a715608c3/L0KzQoG3U8A3N6pvjZH9cnHxg8HokvVvfF5ohNN8c4Lyf760ifNwdl5th99uLXX0hbr3jfVvfF5ue9H3LXTog7y0ifNwdl46fag6ZkazQLW8gvQyPF84TqUBM0O8RYK8WMM1P2k3T6QDN0W4PsH1h5==/transparent-classroom-icon-home-equipment-icon-desk-icon-5e61f600d5bd14.3636339515834782728755.png</iconUrl>
     <description>$description$</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>$copyright$</copyright>

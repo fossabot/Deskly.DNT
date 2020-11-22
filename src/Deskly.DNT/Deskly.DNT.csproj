@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Title>Deskly.DNT</Title>
@@ -13,6 +13,7 @@
     <AssemblyName>Deskly.DNT</AssemblyName>
     <RootNamespace>Deskly.DNT</RootNamespace>
     <RepositoryUrl>https://github.com/Azaferany/Deskly.DNT</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
