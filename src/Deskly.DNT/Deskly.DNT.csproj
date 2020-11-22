@@ -12,6 +12,7 @@
     <PackageTags>.NETCore;EFCore;Tenancy;Validation;Transaction;Logging</PackageTags>
     <AssemblyName>Deskly.DNT</AssemblyName>
     <RootNamespace>Deskly.DNT</RootNamespace>
+    <RepositoryUrl>https://github.com/Azaferany/Deskly.DNT</RepositoryUrl>
   </PropertyGroup>
   
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
