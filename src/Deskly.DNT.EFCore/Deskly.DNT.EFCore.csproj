@@ -1,8 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-  </PropertyGroup>
   <PropertyGroup>
     <Title>Deskly.DNT.EFCore</Title>
     <Description>Deskly.DNT is a Lightweight and Extensible Infrastructure for Building Web Applications</Description>
@@ -15,10 +12,13 @@
     <PackageTags>.NETCore;EFCore;Tenancy;Validation;Transaction;Logging</PackageTags>
     <AssemblyName>Deskly.DNT.EFCore</AssemblyName>
     <RootNamespace>Deskly.DNT.EFCore</RootNamespace>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <PlatformTarget>anycpu</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -38,9 +38,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.0" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <ProjectReference Include="..\Deskly.DNT\Deskly.DNT.csproj" />
   </ItemGroup>
-  
+
 </Project>
